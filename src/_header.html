@@ -1,0 +1,70 @@
+<header class="header">
+    <div class="logo">
+        <img src="img/Vector.png" alt="vector">
+    </div>
+    <section class="header-phone">
+        <a href="/">+375 11 555-55-55</a>
+        <a href="/">+375 11 555-55-55</a>
+    </section>
+    <nav class="navigation">
+        <ul class="navigation__list" type="none">
+            <li class="navigation__item">
+                <a class="navigation__link" href="/">Услуги</a>
+            </li>
+            <li class="navigation__item">
+                <a class="navigation__link" href="/">О компании</a>
+            </li>
+            <li class="navigation__item">
+                <a class="navigation__link" href="/">Документация</a>
+            </li>
+            <li class="navigation__item navigation__item--active">
+                <a class="navigation__link" href="/">Вопросы</a>
+            </li>
+            <li class="navigation__item">
+                <a class="navigation__link" href="/">Контакты</a>
+            </li>
+        </ul>
+    </nav>
+    <form class="container">
+
+        <label type="button" id="input" class="search__txt">Поиск</label>
+        <div class="modal-search">
+            <input class="search" for="input" type="text" name="search" placeholder="...">
+
+            <button type="submit"><span class="button-search">Поиск</span></button>
+        </div>
+    </form>
+    <div class="modal__link">
+        <button class="link" id="modal" type="button">
+            <label class="link-advice" for="modal" href="/"><span class="txt">Консультация</span></label>
+        </button>
+
+    </div>
+    <section class="modal__win">
+
+        <form class="popup" for="modal" method="POST" action="">
+            <H2 class="popup-name">Заполните форму и закажите<br> бесплатную консультацию</H2>
+            <p>
+                <input class="appointment-name" id="appointment-name" type="text" name="name" placeholder="Имя"
+                    required>
+            </p>
+            <p>
+                <input class="appointment-phone" id="appointment-phone" type="tel" name="phone" placeholder="Телефон"
+                    required>
+            </p>
+            <button class="button-popup" type="submit" href="/"><span>Заказать консультацию</span></button>
+        </form>
+        <button class="modal-close" type="button">
+            <span class="visually-hidden"></span>
+        </button>
+    </section>
+    <section class="form-masc">
+        <div class="form-item">
+            <h3>Спасибо!</h3>
+            <p>Скоро с вами свяжется консультант<br> для уточнения деталей</p>
+            <button class="form-close" type="button">
+                <span class="visually-hidden"></span>
+            </button>
+        </div>
+    </section>
+</header>
